@@ -1,0 +1,23 @@
+#!groovy
+
+// 引用在jenkins已经全局定义好的library
+library 'jenkins-pipeline-groovy'
+    def map = [:]
+
+    // 服务器信息
+    map.put('SERVER','服务器信息.json文件')
+    // 分支名称
+    map.put('BRANCH_NAME','master')
+    // svn代码地址
+    map.put('SVN_URL','svn代码地址')
+    // git代码地址
+    map.put('GIT_URL','GIT代码地址')
+    // 定义Jenkins的工作目录
+    map.put('workspace','/home/jenkins/哪个项目/哪个133/135/137/prod')
+    // Jenkins全局凭据
+    map.put('CRED_ID','Jenkins全局凭据')
+    // 定义服务器部署服务包目录
+    map.put('DEPLOY_URL','部署的服务包路径')
+
+// 调用library中vars目录下的main.groovy脚本
+main(map)

@@ -1,0 +1,26 @@
+{
+    "server1":{
+        "ip":"",
+        "prot":"",
+        "user":"",
+        "pwd":""
+    },
+    "server2":{
+        "ip":"",
+        "prot":"",
+        "user":"",
+        "pwd":""
+    },
+    "server3":{
+        "ip":"",
+        "prot":"",
+        "user":"",
+        "pwd":""
+    },
+    "server4":{
+        "ip":"",
+        "prot":"",
+        "user":"",
+        "pwd":""
+    }
+}
