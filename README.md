@@ -4,7 +4,9 @@
 
 >resources
    >>jenkinsfile  文件需要放到项目根目录下,于java中pom同级即可
+   >>
    >>app.json     文件是配置的远程部署项目的服务器信息
+   >>
    >>scripts      文件夹下是一些操作的shell脚本
 >
 >vars             
