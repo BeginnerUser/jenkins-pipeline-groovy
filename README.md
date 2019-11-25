@@ -1,6 +1,8 @@
 # jenkins-pipeline-groovy
 
-基于jenkins pipline的自动化构建参数化脚本(项目要求j8+maven+springboot)
+基于jenkins pipline的自动化构建参数化脚本
+
+项目要求:jdk1.8+、maven管理项目jar包、springboot构建项目
 
 >resources
    >>jenkinsfile  文件需要放到项目根目录下,于java中pom同级即可
