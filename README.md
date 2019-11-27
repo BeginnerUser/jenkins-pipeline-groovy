@@ -4,6 +4,8 @@
 
 项目要求:jdk1.8+、maven管理项目jar包、springboot构建项目
 
+先决条件Jenkins需先配置好jdk1.8+和maven的版本。
+
 >resources
    >>jenkinsfile  文件需要放到项目根目录下,和java项目中pom的同级即可
    >>
